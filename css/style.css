@@ -1,0 +1,106 @@
+body {
+    font-family: "Angsana New", serif; /* ใช้ฟอนต์ Angsana New */
+    font-size: 20px; /* เพิ่มขนาดตัวอักษรหลัก */
+    line-height: 1.8; /* เพิ่มความสูงระหว่างบรรทัดเพื่อให้อ่านง่ายขึ้น */
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5f5; /* สีพื้นหลังอ่อนโทนม่วง */
+    color: #4a148c; /* สีตัวอักษรโทนม่วงเข้ม */
+}
+
+header {
+    background-color: #6a1b9a; /* สีพื้นหลังโทนม่วงเข้ม */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #d1c4e9; /* สีลิงก์โทนอ่อน */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff80ab; /* สีลิงก์เมื่อเมาส์ชี้ */
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #6a1b9a; /* สีพื้นหลังโทนม่วงเข้ม */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* ส่วนข้อมูลส่วนตัว */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e1bee7; /* สีพื้นหลังอ่อนโทนม่วง */
+    border: 1px solid #b39ddb; /* เส้นขอบสีม่วงอ่อน */
+    border-radius: 8px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #9575cd; /* เส้นขอบสีม่วงเข้ม */
+}
+
+.profile-info p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.profile-info strong {
+    color: #4a148c; /* สีข้อความเน้น */
+}
+
+
+.content-center {
+    display: flex;
+    flex-direction: column; /* จัดวางเป็นแนวตั้ง */
+    align-items: center; /* จัดกึ่งกลางแนวนอน */
+    justify-content: center; /* จัดกึ่งกลางแนวตั้ง */
+    text-align: center; /* ข้อความอยู่ตรงกลาง */
+    gap: 20px; /* เพิ่มระยะห่างระหว่างรูปกับข้อความ */
+    padding: 20px;
+}
